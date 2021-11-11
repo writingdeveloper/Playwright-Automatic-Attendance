@@ -43,7 +43,7 @@ async function start() {
 
     await browser.close()
 
-    await got.post("https://discord.com/api/webhooks/908160917743738880/4oI-sMwtXXsIgbkc52t0HtCp_02S0XutoUZNWNR4dzyPJbUgSz_7MC-GQfIqjBQ0fVh3", {
+    await got.post(process.env.DISCORD_WEBHOOK, {
         json: {
             "content": `🚨${new Date()}\n✅T Cafe 출석 완료 보고드립니다!✅`
         }
