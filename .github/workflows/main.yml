@@ -1,8 +1,8 @@
 name: Auto-Attendance
 
-on:
-    schedule:
-        - cron: "32 2 * * *"
+on: [push]
+#     schedule:
+#         - cron: "32 2 * * *"
 
 jobs:
     build:
