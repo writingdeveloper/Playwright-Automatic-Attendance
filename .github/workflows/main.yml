@@ -1,5 +1,9 @@
 name: Auto-Attendance
 
+env:
+    TCAFE_ID: ${{ secrets.TCAFE_ID} }
+    TCAFE_PASSWORD : ${{ secrets.TCAFE_PASSWORD }}
+
 on: [push]
 #     schedule:
 #         - cron: "32 2 * * *"
