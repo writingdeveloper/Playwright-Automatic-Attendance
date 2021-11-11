@@ -21,11 +21,11 @@ async function start() {
     await page.waitForSelector('#login_id')
     await page.click('#login_id')
 
-    await page.type('#login_id', secrets.TCAFE_ID)
+    await page.type('#login_id', process.env.TCAFE_ID)
 
     await page.waitForSelector('#login_pw')
     await page.click('#login_pw')
-    await page.type('#login_pw', secrets.TCAFE_PASSWORD)
+    await page.type('#login_pw', process.env.TCAFE_PASSWORD)
 
     await navigationPromise
 
