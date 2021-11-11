@@ -3,6 +3,7 @@ name: Auto-Attendance
 env:
     TCAFE_ID: ${{ secrets.TCAFE_ID }}
     TCAFE_PASSWORD : ${{ secrets.TCAFE_PASSWORD }}
+    DISCORD_WEBHOOK : ${{ secrets.DISCORD_WEBHOOK }}
 # TEST ENV
 
 on: [push]
