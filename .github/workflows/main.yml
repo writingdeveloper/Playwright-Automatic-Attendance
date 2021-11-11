@@ -9,7 +9,7 @@ env:
 # on: [push]
 on:
     schedule:
-        - cron: "21 4 * * *"
+        - cron: "34 4 1/1"
 
 jobs:
     build:
