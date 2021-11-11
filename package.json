@@ -1,0 +1,25 @@
+{
+  "name": "playwright-automatic-attendance",
+  "version": "1.0.0",
+  "description": "It's a program that helps you attend various communities",
+  "main": "app.js",
+  "dependencies": {
+    "got": "^11.8.2",
+    "playwright": "^1.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writingdeveloper/Playwright-Automatic-Attendance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/writingdeveloper/Playwright-Automatic-Attendance/issues"
+  },
+  "homepage": "https://github.com/writingdeveloper/Playwright-Automatic-Attendance#readme"
+}
