@@ -4,7 +4,7 @@ env:
     TCAFE_ID: ${{ secrets.TCAFE_ID }}
     TCAFE_PASSWORD : ${{ secrets.TCAFE_PASSWORD }}
     SVR_ID : ${{ secrets.SVR_ID }}
-    SVR_PASSWORD : ${{ secrets.SVR_}}
+    SVR_PASSWORD : ${{ secrets.SVR_PASSWORD }}
     DISCORD_WEBHOOK : ${{ secrets.DISCORD_WEBHOOK }}
 # TEST ENV
 
