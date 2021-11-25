@@ -35,7 +35,7 @@ async function start() {
         }
     })
     await page.goto('https://svrforum.com/home/login')
-    // await page.waitForSelector('#uid')
+    await page.waitForSelector('#uid')
     await page.click('#uid')
     await page.type('#uid', prcess.env.SVR_ID)
     await page.click('#upw')
