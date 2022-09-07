@@ -15,10 +15,10 @@ async function start() {
   });
   await page.waitForSelector("#login_id");
   await page.click("#login_id");
-  await page.type("#login_id", process.env.TCAFE_ID || "leesihung");
+  await page.type("#login_id", process.env.TCAFE_ID || "");
   await page.waitForSelector("#login_pw");
   await page.click("#login_pw");
-  await page.type("#login_pw", process.env.TCAFE_PASSWORD || "Mo84265tcafe!@");
+  await page.type("#login_pw", process.env.TCAFE_PASSWORD || "");
   await navigationPromise;
   await page.waitForSelector(
     "#thema_wrapper > div > div.at-body > div > div > div > div > div.form-box > div.form-body > form > div.row > div:nth-child(2) > button"
